@@ -39,7 +39,7 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile project(':componentservice')
-    compile "com.android.support:appcompat-v7:$rootProject.supportLibraryVersion"
+//    compile "com.android.support:appcompat-v7:$rootProject.supportLibraryVersion"
     testCompile 'junit:junit:4.12'
 }
 combuild {

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="1.0"
+    >
+
+    <FrameLayout
+        android:layout_width="40dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_icon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="6dp"
+            />
+
+        <View
+            android:id="@+id/red_point"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/tv_count"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="8sp"/>
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="首页"
+        android:textSize="8sp"/>
+</FrameLayout>
