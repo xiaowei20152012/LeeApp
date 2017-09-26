@@ -8,8 +8,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.componentlib.router.ui.UIRouter;
+import com.mrzhang.reader.R;
 
-import com.readercomponent.R;
 /**
  * Created by mrzhang on 2017/6/15.
  */
