@@ -19,7 +19,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-    resourcePrefix "readerbook_"
+    resourcePrefix "pic_"
 
     sourceSets {
         main {
@@ -42,6 +42,6 @@ dependencies {
     testCompile 'junit:junit:4.12'
 }
 combuild {
-    applicatonName = 'com.pic.runalone.application.ReaderApplication'
+    applicatonName = 'com.pic.runalone.application.PicApplication'
     isRegisterCompoAuto = false
 }

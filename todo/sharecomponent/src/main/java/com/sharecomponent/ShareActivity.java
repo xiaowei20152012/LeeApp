@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
-import com.sharecomponent.R;
+
 
 /**
  * Created by mrzhang on 2017/6/20.

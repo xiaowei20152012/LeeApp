@@ -43,7 +43,7 @@ dependencies {
     testCompile 'junit:junit:4.12'
 }
 combuild {
-    applicatonName = 'com.mrzhang.reader.runalone.application.ReaderApplication'
+    applicatonName = 'com.readercomponent.runalone.application.ReaderApplication'
     isRegisterCompoAuto = false
 }
 

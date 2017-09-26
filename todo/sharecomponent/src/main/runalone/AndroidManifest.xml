@@ -1,15 +1,16 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
 
-    package="com.mrzhang.share">
+    package="com.sharecomponent">
 
     <application
-        android:name="com.mrzhang.share.runalone.application.ShareApplication"
+        android:name="com.sharecomponent.runalone.application.ShareApplication"
         android:allowBackup="true"
         android:label="share_app_name"
         android:supportsRtl="true"
+        android:theme="@style/commonAppTheme"
         tools:replace="android:label">
-        <activity android:name="com.mrzhang.share.ShareActivity">
+        <activity android:name="com.sharecomponent.ShareActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

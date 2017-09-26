@@ -14,6 +14,7 @@
             <option value="$PROJECT_DIR$/build-gradle" />
             <option value="$PROJECT_DIR$/componentlib" />
             <option value="$PROJECT_DIR$/componentservice" />
+            <option value="$PROJECT_DIR$/notescomponent" />
             <option value="$PROJECT_DIR$/picomponent" />
             <option value="$PROJECT_DIR$/readercomponent" />
             <option value="$PROJECT_DIR$/sharecomponent" />

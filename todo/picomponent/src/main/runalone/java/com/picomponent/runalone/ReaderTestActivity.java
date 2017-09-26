@@ -1,4 +1,4 @@
-package com.pic.runalone;
+package com.picomponent.runalone;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

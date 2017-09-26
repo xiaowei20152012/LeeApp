@@ -1,4 +1,4 @@
-package com.mrzhang.reader.runalone.application;
+package com.picomponent.runalone.application;
 
 import android.app.Application;
 
@@ -6,10 +6,10 @@ import com.componentlib.router.Router;
 
 
 /**
- * Created by mrzhang on 2017/6/20.
+ * Created by liwei on 2017/6/20.
  */
 
-public class ReaderApplication extends Application {
+public class PicApplication extends Application {
 
     @Override
     public void onCreate() {

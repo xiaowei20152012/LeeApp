@@ -1,4 +1,4 @@
-package com.mrzhang.share.runalone.application;
+package com.sharecomponent.runalone.application;
 
 import android.app.Application;
 

@@ -45,6 +45,6 @@ dependencies {
 }
 
 combuild {
-    applicatonName = 'com.mrzhang.share.runalone.application.ShareApplication'
+    applicatonName = 'com.sharecomponent.runalone.application.ShareApplication'
     isRegisterCompoAuto = true
 }

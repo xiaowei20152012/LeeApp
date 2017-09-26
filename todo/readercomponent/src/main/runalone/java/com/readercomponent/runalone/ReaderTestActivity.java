@@ -1,11 +1,11 @@
-package com.mrzhang.reader.runalone;
+package com.readercomponent.runalone;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 
-import com.mrzhang.reader.R;
+import com.readercomponent.R;
 import com.readercomponent.ReaderFragment;
 
 /**
@@ -24,4 +24,13 @@ public class ReaderTestActivity extends AppCompatActivity {
         final FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
         ft.add(R.id.tab_content, fragment).commitAllowingStateLoss();
     }
+//    Router router = Router.getInstance();
+//    if (router.getService(ReadBookService.class.getSimpleName()) != null) {
+//        ReadBookService service = (ReadBookService) router.getService(ReadBookService.class.getSimpleName());
+//        fragment = service.getReadBookFragment();
+//        ft = getSupportFragmentManager().beginTransaction();
+//        ft.add(R.id.tab_content, fragment).commitAllowingStateLoss();
+//    }
+
+
 }
